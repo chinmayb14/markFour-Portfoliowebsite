@@ -1,0 +1,160 @@
+/**@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');**/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,400;8..144,700&family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #10b981;
+    --dark-gray:#6b7280;
+    --off-white: #e5e7eb ;
+    
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+margin-top:0;
+margin-bottom:0;
+}
+p{
+    padding-bottom: 1.5rem ;
+}
+
+.container{
+    padding: 2rem 2rem;
+    }
+
+.container-center{
+    max-width:600px;
+    border-radius: 1.5rem;
+    margin:auto;
+    margin-bottom: 1rem;
+    }
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem  1rem ;
+}
+
+
+.primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:white;
+}
+
+.secondary{
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.non-bullet-list{
+    list-style: none;
+    
+}
+
+.non-bullet-align .list-inline{
+    float: right;
+}
+
+.list-inline{
+    display:inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color:white;
+    padding:2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+}
+
+.navigation .link{
+    color:white;
+    
+}
+.nav-brand{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.navigation  .nav-pills {
+    text-align: right;
+}
+.link-active{
+    font-weight:bold;
+}
+
+.hero{
+    padding :2rem ;
+
+}
+
+.hero .dp-image{
+    max-width: 350px;
+    display: block;
+    margin:auto;
+}
+
+.hero .project-Image{
+    max-width: 250px;
+    display: block;
+    margin:auto;
+}
+.hero .heading{
+    padding-top: 1rem;
+    text-align: center;
+    color:var(--dark-gray);
+
+}
+.highlight-color{
+    color:var(--primary-color);
+}
+
+.section{
+padding: 2rem;
+background-color:white;
+border-radius: 2rem;
+width:75%;
+margin:auto;
+margin-bottom: 2rem;
+text-align:center;
+}
+
+.section h1{
+    text-align:center;
+}
+
+.ow{
+    background-color:var(--off-white);
+}
+
+.footer{
+    background-color:var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    color:white;
+border-top-left-radius: 2rem;
+border-top-right-radius: 2rem;
+}
+
+ .foot-text
+{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+
+}
+.footer .link{
+    
+    color:white;
+    text-align:center;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+ .blog-text{
+    font-size:medium;
+}
