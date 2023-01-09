@@ -11,7 +11,7 @@ This is my Portfolio website. The following things are listed on my website:
 
 ## TechStack
 
-HTML5,CSS#,Javascript
+HTML5,CSS3,Javascript
 
 
 ## About
